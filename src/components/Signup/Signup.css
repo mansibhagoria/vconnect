@@ -1,0 +1,124 @@
+/* Landing.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #220A2E;
+  }
+  
+  .landing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .left-section img {
+    max-width: 70%;
+    width: auto;
+    height: auto;
+    max-height: 70vh; /* Limiting image height to 70% of viewport height */
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .connect-text {
+    position: relative;
+  }
+  
+  .connect-text span {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .first-color {
+    color: #F3F2DC;
+  }
+  
+  .second-color {
+    color: #832396;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+  }
+  
+  .overlay-text span {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .third-color {
+    color: #237496;
+  }
+  
+  .fourth-color {
+    color: #2FC3CD;
+  }
+
+  
+  /* SignUp1.css */
+
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .left-section {
+    /* Styles for the left section */
+  }
+  
+  .right-section {
+    /* Styles for the right section */
+  }
+  
+  .connect-text {
+    font-family: Arial, sans-serif;
+  }
+  
+  .first-color {
+    font-size: 100px; /* You can adjust the font size as needed */
+  }
+  
+  .second-color {
+    font-size: 24px; /* You can adjust the font size as needed */
+  }
+  
+  .input-field {
+    /* Styles for input fields */
+    border: 1px solid #007bff; /* aceblue color */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .submit-button {
+    /* Styles for the submit button */
+    background-color: #007bff; /* aceblue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* darker shade of aceblue on hover */
+  }

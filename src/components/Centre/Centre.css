@@ -1,0 +1,53 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  
+
+}
+
+.Invite, .Invites {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecf0f1;
+  /* padding: 20px; */
+  /* margin: 10px; */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width:100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* transition: transform 0.3s ease-in-out;  */
+}
+
+
+
+.submit {
+  border-radius: 5px;
+  background-color: #1e4a8b;
+  color: #ffffff;
+  border: none;
+  height: 20px;
+  width: 100px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+}
+
+.submit:hover {
+  background-color: #144274; /* Darker color on hover */
+}
+
+@media (max-width: 768px) {
+  .Post {
+    width: 80%;
+  }
+}

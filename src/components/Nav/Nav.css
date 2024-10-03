@@ -1,0 +1,156 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  background-color: #2E0D3E; 
+  height: 50px;
+  padding: 0 20px;
+}
+
+.menu__cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.menu {
+  font-size: 24px;
+  color: #fff; 
+  cursor: pointer;
+}
+
+.menu:hover {
+  color: #4F2671; 
+}
+
+.logo__cont {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 15px;
+  height: 10px;
+}
+
+.logo {
+  max-width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.search__cont {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: #2E0D3E; 
+  padding: 0 10px;
+  border-radius: 15px;
+}
+
+
+.search {
+  border: 2px solid #4F2671; 
+  outline: none;
+  flex: 1;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  width: 100%;
+  color: #4F2671; 
+  background-color: #fff; 
+}
+
+
+.search__btn {
+  background-color: #4F2671; 
+  border: none;
+  height: 30px;
+  width: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  color: #fff; 
+}
+
+.bell {
+  position: relative;
+  font-size: 40px;
+  color: #fff;
+  transition: color 0.3s ease;
+  cursor: pointer;
+
+}
+
+.search__icon {
+  font-size: large;
+}
+
+.bell:hover {
+  color: #4F2671;
+
+
+}
+
+
+@media (max-width: 768px) {
+  .search__cont {
+    margin-left: 10px;
+    padding: 0 5px;
+  }
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2E0D3E; 
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: white; 
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #4F2671; 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

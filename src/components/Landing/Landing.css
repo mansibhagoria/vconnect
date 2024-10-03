@@ -1,0 +1,101 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #220A2E;
+}
+
+.landing-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.left-section img {
+  max-width: 70%;
+  width: auto;
+  height: auto;
+  max-height: 70vh; 
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connect-text {
+  position: relative;
+}
+
+.connect-text span {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.first-color {
+  color: #F3F2DC;
+}
+
+.second-color {
+  color: #832396;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.overlay-text span {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.third-color {
+  color: #237496;
+}
+
+.fourth-color {
+  color: #2FC3CD;
+}
+
+.inputs{
+  height: 25px;
+  width: 236px;
+  margin: 10px 0px;
+  border-radius: 7px;
+}
+.input-field {
+  /* Styles for input fields */
+  border: 1px solid #007bff; /* aceblue color */
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 300px; /* Adjust width as needed */
+}
+
+.submit-button {
+  /* Styles for the submit button */
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; 
+}
